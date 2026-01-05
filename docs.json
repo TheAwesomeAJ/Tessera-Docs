@@ -3,32 +3,38 @@
   "theme": "mint",
   "name": "Tessera Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#15a38f",
+    "light": "#06c9ae",
+    "dark": "#14806e"
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "versions": [
+    "anchors": [
       {
-        "version": "v0.1",
-        "default": true,
-        "tabs": [
+        "anchor": "GitHub Discussions",
+        "icon": "message",
+        "versions": [
           {
-            "tab": "Guides",
-            "groups": [
+            "version": "v0.1",
+            "default": true,
+            "tabs": [
               {
-                "group": "Getting started",
-                "pages": [
-                  "index"
-                ]
-              },
-              {
-                "group": "Installation",
-                "pages": [
-                  "guides/installation/intro",
-                  "guides/installation/using-exe",
-                  "guides/installation/using-pip"
+                "tab": "Guides",
+                "groups": [
+                  {
+                    "group": "Getting started",
+                    "pages": [
+                      "index"
+                    ]
+                  },
+                  {
+                    "group": "Installation",
+                    "pages": [
+                      "guides/installation/intro",
+                      "guides/installation/using-exe",
+                      "guides/installation/using-pip"
+                    ]
+                  }
                 ]
               }
             ]
@@ -61,5 +67,8 @@
     "socials": {
       "github": "https://github.com/theawesomeaj/tessera"
     }
+  },
+  "background": {
+    "decoration": "gradient"
   }
 }
