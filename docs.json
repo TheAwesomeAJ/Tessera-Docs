@@ -12,7 +12,7 @@
     "anchors": [
       {
         "anchor": "GitHub Discussions",
-        "icon": "message",
+        "icon": "message-code",
         "versions": [
           {
             "version": "v0.1",
@@ -70,5 +70,8 @@
   },
   "background": {
     "decoration": "gradient"
+  },
+  "appearance": {
+    "default": "dark"
   }
 }
