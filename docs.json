@@ -29,6 +29,7 @@
                   },
                   {
                     "group": "Installation",
+                    "icon": "download",
                     "pages": [
                       "guides/installation/intro",
                       "guides/installation/using-exe",
