@@ -12,7 +12,6 @@
     "anchors": [
       {
         "anchor": "GitHub Discussions",
-        "icon": "message-code",
         "versions": [
           {
             "version": "v0.1",
