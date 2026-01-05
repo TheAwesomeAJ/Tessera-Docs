@@ -24,10 +24,6 @@
         "default": true,
         "groups": [
           {
-            "group": "Using Tessera",
-            "pages": []
-          },
-          {
             "group": "Getting started",
             "icon": "list-check",
             "pages": [
@@ -38,9 +34,15 @@
             "group": "Installation",
             "icon": "download",
             "pages": [
-              "guides/installation/intro",
-              "guides/installation/using-pip",
-              "guides/installation/using-exe"
+              "installation/using-pip",
+              "installation/using-exe"
+            ]
+          },
+          {
+            "group": "Using Tessera",
+            "icon": "key",
+            "pages": [
+              "usage/start"
             ]
           }
         ]

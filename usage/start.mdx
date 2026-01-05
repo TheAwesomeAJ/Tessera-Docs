@@ -1,0 +1,72 @@
+---
+title: "First Time Use"
+icon: "1"
+description: "This will walk you through the first steps in using Tessera"
+---
+
+<Note>
+  All guides are written as if you are using Windows. However, tessera _should_ work on MacOS and Linux as well. The paths are the only things that may look a bit different, but everything else should be the same.
+</Note>
+
+Once you have installed `tessera` by following [this](/installation/using-pip) guide, you can run this command:
+
+```
+tessera
+```
+
+## After running `tessera`
+
+Once you have run the command, you will see something like this.
+
+<Info>
+  Actual console formating has been left out of these docs, for simplicity purposes, but the logic stays the same.
+</Info>
+
+``` expandable
+Tessera Interface
+                                                     
+Tessera - A terminal password manager, built simply 
+                                                     
+Type 'help' to see available commands
+
+
+Encryption key created: C:\Users\(Your Username)\.tessera\Keys\tessera_key_(NUMBERS).key
+Password file created: C:\Users\(Your Username)\.tessera\Data\tessera_pw_(NUMBERS).json
+
+tessera >:
+```
+
+Lets break down this UI
+
+## User Interface
+
+### Hero
+
+```
+Tessera Interface
+                                                     
+Tessera - A terminal password manager, built simply 
+                                                     
+Type 'help' to see available commands
+```
+
+This part is just the welcome screen. You will only see this once.
+
+### Log Section
+
+```
+Encryption key created: C:\Users\(Your Username)\.tessera\Keys\tessera_key_(NUMBERS).key
+Password file created: C:\Users\(Your Username)\.tessera\Data\tessera_pw_(NUMBERS).json
+```
+
+This part shows where the **Encryption Key** and **Password File** is stored. On the first command run, it will show like this. However, after this, it will show as `loaded` and not `created`, unless the files are deleted. If they are deleted, the program will automatically create them.
+
+Also, the **(NUMBERS)** is just a placeholder. When you open the terminal, it will be a 10 digit string, representing the timestamp of when the file was created. This is simply to ensure that the file is unique, and won't be written over. 
+
+### Input Section
+
+```
+tessera >:
+```
+
+This is where you input commands. Upon program opening, and after a process finishes, this will appear.
