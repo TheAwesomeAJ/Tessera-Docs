@@ -7,8 +7,8 @@ description: "How to install Tessera using the Python Package Index, (PyPi)."
 ### Compatability
 
 <Badge icon="circle-check" color="green" size="lg">Windows</Badge>
-<Badge icon="circle-check" color="green">MacOS size="lg"</Badge>
-<Badge icon="circle-check" color="green">Linux size="lg"</Badge>
+ <Badge icon="circle-check" color="green" size="lg">MacOS</Badge>
+ <Badge icon="circle-check" color="green" size="lg">Linux</Badge>
 
 <Steps>
   <Step title="Install Python">
@@ -29,9 +29,38 @@ description: "How to install Tessera using the Python Package Index, (PyPi)."
     If it is not installed, see [Download Python | Python.org](https://Python.org)
   </Step>
   <Step title="Install Pip">
-    `pip` should be installed by default with python. Run this command to make sure
+    `pip` should be installed by default with python. Run this command to make sure.
+
+    ```
+    pip --version
+    ```
+
+    It should return something like:
+
+    ```Windows Windows
+    pip 25.3 from C:\Users\(Your Username)\AppData\Roaming\Python\Python312\site-packages\pip (python 3.12)
+    ```
+
+    ---
+
+    If it doesn't return anything, see [Installation - pip documentation v25.3](https://pip.pypa.io/en/stable/installation/)
+  </Step>
+  <Step title="Install Tessera">
+    Now that you have `python` and `pip` installed, you can install `tessera` directly from [PyPi (Python Package Index)](https://pypi.org/project/tessera.cli/), using the `pip` command. Run:
+
+    ```
+    pip install tessera.cli
+    ```
   </Step>
   <Step title="New Step">
-    
+    Once you have installed all three programs, you will be able to run the following command anywhere to start the program.
+
+    ```
+    tessera
+    ```
+
+    This will launch the program window.
   </Step>
 </Steps>
+
+Congrats! You successfully installed `tessera`! Read this page next to learn how to use `tessera`
