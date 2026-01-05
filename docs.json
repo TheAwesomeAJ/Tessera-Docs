@@ -9,10 +9,37 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "anchors": [
+    "global": {
+      "anchors": [
+        {
+          "anchor": "GitHub Discussions",
+          "icon": "message-code",
+          "href": "https://github.com/TheAwesomeAJ/Tessera/discussions"
+        }
+      ]
+    },
+    "versions": [
       {
-        "anchor": "GitHub Discussions",
-        "href": "https://github.com/TheAwesomeAJ/Tessera/discussions"
+        "version": "v0.1",
+        "default": true,
+        "groups": [
+          {
+            "group": "Getting started",
+            "icon": "list-check",
+            "pages": [
+              "index"
+            ]
+          },
+          {
+            "group": "Installation",
+            "icon": "download",
+            "pages": [
+              "guides/installation/intro",
+              "guides/installation/using-exe",
+              "guides/installation/using-pip"
+            ]
+          }
+        ]
       }
     ]
   },
