@@ -12,35 +12,7 @@
     "anchors": [
       {
         "anchor": "GitHub Discussions",
-        "versions": [
-          {
-            "version": "v0.1",
-            "default": true,
-            "tabs": [
-              {
-                "tab": "Guides",
-                "groups": [
-                  {
-                    "group": "Getting started",
-                    "icon": "list-check",
-                    "pages": [
-                      "index"
-                    ]
-                  },
-                  {
-                    "group": "Installation",
-                    "icon": "download",
-                    "pages": [
-                      "guides/installation/intro",
-                      "guides/installation/using-exe",
-                      "guides/installation/using-pip"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
+        "href": "https://github.com/TheAwesomeAJ/Tessera/discussions"
       }
     ]
   },
