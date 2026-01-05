@@ -23,6 +23,7 @@
                 "groups": [
                   {
                     "group": "Getting started",
+                    "icon": "list-check",
                     "pages": [
                       "index"
                     ]
