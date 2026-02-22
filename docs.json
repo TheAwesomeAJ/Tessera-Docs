@@ -34,8 +34,7 @@
             "group": "Installation",
             "icon": "download",
             "pages": [
-              "installation/using-pip",
-              "installation/using-exe"
+              "installation/using-pip"
             ]
           },
           {
